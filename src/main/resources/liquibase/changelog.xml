@@ -1,0 +1,75 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+
+    <include file="patch0.0.0/tables/tables.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/amcap/30112012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/30112013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/30112014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/30112015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/30112016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/31052012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/31052013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/31052014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/31052015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/amcap/31052016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/capitalincomebuilder/31012012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31012013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31012014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31012015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31012016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31072012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31072013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31072014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31072015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/capitalincomebuilder/31072016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/europacific/30062012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/30062013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/30062014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/30062015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/30062016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/31122012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/31122013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/31122014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/31122015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/europacific/31122011update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/growthfund/30112012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/30112013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/30112014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/30112015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/30112016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/31052012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/31052013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/31052014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/31052015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/growthfund/31052016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/smallcapworld/30062012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/30062013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/30062014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/30062015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/30062016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/31122012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/31122013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/31122014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/31122015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/smallcapworld/31122016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/washingtonmutual/31012012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31012013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31012014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31012015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31012016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31072012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31072013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31072014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31072015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/washingtonmutual/31072016update.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>

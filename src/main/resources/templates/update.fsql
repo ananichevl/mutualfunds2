@@ -1,0 +1,23 @@
+-- liquibase formatted sql
+-- changeset bender:add-${file}companies
+
+<#list investments as investments>
+MERGE INTO ${fond} f
+USING ( SELECT 1 FROM dual ) d
+ON ( f.company = '${investments.company}' )
+WHEN MATCHED THEN
+UPDATE SET f.value_${file} = ${investments.value?c}
+, f.shares_${file} = ${investments.shares?c}
+WHEN NOT MATCHED THEN
+INSERT (id,
+company,
+value_${file},
+shares_${file}
+)
+VALUES (  ${fond}_seq.nextval,
+'${investments.company}',
+${investments.value?c},
+${investments.shares?c}
+)
+;
+</#list>

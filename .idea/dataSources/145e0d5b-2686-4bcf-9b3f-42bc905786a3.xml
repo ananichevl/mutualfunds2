@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="ANANICHEV">
+      <ObjectId>49</ObjectId>
+      <IntrospectionTimestamp>2017-03-23.23:47:58</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-03-22.00:50:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.23:39:38</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="20" parent="2" name="ASSETS_SEQ">
+      <ObjectId>22348</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="21" parent="2" name="BOURSES_SEQ">
+      <ObjectId>22345</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="2" name="BOURSE_ASSETS_SEQ">
+      <ObjectId>22351</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="23" parent="2" name="BOURSE_ASSETS_VALUES_SEQ">
+      <ObjectId>22357</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="24" parent="2" name="COMPANIES_SEQ">
+      <ObjectId>22342</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="25" parent="2" name="FUNDS_PORTFOLIO_SEQ">
+      <ObjectId>22354</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="26" parent="2" name="FUNDS_SEQ">
+      <ObjectId>22339</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="27" parent="2" name="HIBERNATE_SEQUENCE">
+      <ObjectId>22524</ObjectId>
+      <CreatedTimestamp>2017-03-23.23:39:38</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.23:39:38</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="28" parent="2" name="ASSETS">
+      <ObjectId>22346</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="2" name="BOURSES">
+      <ObjectId>22343</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="2" name="BOURSE_ASSETS">
+      <ObjectId>22349</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="2" name="BOURSE_ASSETS_VALUES">
+      <ObjectId>22355</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="2" name="COMPANIES">
+      <ObjectId>22340</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="2" name="DATABASECHANGELOG">
+      <ObjectId>22336</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="2" name="DATABASECHANGELOGLOCK">
+      <ObjectId>22334</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:50:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:50:40</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="2" name="FUNDS">
+      <ObjectId>22337</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="2" name="FUNDS_PORTFOLIO">
+      <ObjectId>22352</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+    </table>
+    <column id="37" parent="28" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="28" name="ASSET_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="39" parent="28" name="COMPANY_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="40" parent="28" name="PK_ASSETS_REC_ID">
+      <ObjectId>22347</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="28" name="PK_ASSETS_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_ASSETS_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="42" parent="28" name="FK_COMPANY_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <ColNames>COMPANY_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>COMPANIES</RefTableName>
+      <RefKeyName>PK_COMPANIES_REC_ID</RefKeyName>
+    </foreign-key>
+    <column id="43" parent="29" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="29" name="CODE">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="45" parent="29" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="29" name="PK_BOURSES_REC_ID">
+      <ObjectId>22344</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="29" name="PK_BOURSES_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_BOURSES_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="30" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="30" name="ASSET_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="30" name="BOURSE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="30" name="PK_BOURSE_ASSETS_REC_ID">
+      <ObjectId>22350</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="30" name="PK_BOURSE_ASSETS_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_BOURSE_ASSETS_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="53" parent="30" name="FK_ASSET_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>ASSET_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>ASSETS</RefTableName>
+      <RefKeyName>PK_ASSETS_REC_ID</RefKeyName>
+    </foreign-key>
+    <foreign-key id="54" parent="30" name="FK_BOURSE_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>BOURSE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>BOURSES</RefTableName>
+      <RefKeyName>PK_BOURSES_REC_ID</RefKeyName>
+    </foreign-key>
+    <column id="55" parent="31" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="31" name="BOURSE_ASSET_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="31" name="VALUE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="58" parent="31" name="CURRENCY">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="59" parent="31" name="INFO_DATE">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="60" parent="31" name="PK_BOURSE_ASSETS_VALUES_REC_ID">
+      <ObjectId>22356</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="31" name="PK_BOURSE_ASSETS_VALUES_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_BOURSE_ASSETS_VALUES_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="31" name="FK_BOURSE_ASSET_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>BOURSE_ASSET_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>BOURSE_ASSETS</RefTableName>
+      <RefKeyName>PK_BOURSE_ASSETS_REC_ID</RefKeyName>
+    </foreign-key>
+    <column id="63" parent="32" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="32" name="CODE">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="65" parent="32" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="32" name="PK_COMPANIES_REC_ID">
+      <ObjectId>22341</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="32" name="PK_COMPANIES_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_COMPANIES_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="33" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="33" name="AUTHOR">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="33" name="FILENAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="33" name="DATEEXECUTED">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="33" name="ORDEREXECUTED">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="33" name="EXECTYPE">
+      <Position>6</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="33" name="MD5SUM">
+      <Position>7</Position>
+      <DataType>VARCHAR2(35)|0</DataType>
+    </column>
+    <column id="75" parent="33" name="DESCRIPTION">
+      <Position>8</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="76" parent="33" name="COMMENTS">
+      <Position>9</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="77" parent="33" name="TAG">
+      <Position>10</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="78" parent="33" name="LIQUIBASE">
+      <Position>11</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="79" parent="33" name="CONTEXTS">
+      <Position>12</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="80" parent="33" name="LABELS">
+      <Position>13</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="81" parent="33" name="DEPLOYMENT_ID">
+      <Position>14</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="82" parent="34" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="34" name="LOCKED">
+      <Position>2</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="34" name="LOCKGRANTED">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="85" parent="34" name="LOCKEDBY">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <index id="86" parent="34" name="PK_DATABASECHANGELOGLOCK">
+      <ObjectId>22335</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:50:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:50:40</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="34" name="PK_DATABASECHANGELOGLOCK">
+      <ModifiedTimestamp>2017-03-22.00:50:40</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_DATABASECHANGELOGLOCK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="35" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="35" name="CODE">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="90" parent="35" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="35" name="PK_FUNDS_REC_ID">
+      <ObjectId>22338</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="35" name="PK_FUNDS_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:31</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_FUNDS_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="36" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="36" name="FUND_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="36" name="ASSET_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="36" name="VALUE">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="97" parent="36" name="SHARES">
+      <Position>5</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="98" parent="36" name="REPORT_DATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="99" parent="36" name="PK_FUNDS_PORTFOLIO_REC_ID">
+      <ObjectId>22353</ObjectId>
+      <CreatedTimestamp>2017-03-22.00:51:32</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <TablespaceName>ANANICHEV_TABLESPACE</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="100" parent="36" name="PK_FUNDS_PORTFOLIO_REC_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_FUNDS_PORTFOLIO_REC_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="101" parent="36" name="FK_FUND_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>FUND_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>FUNDS</RefTableName>
+      <RefKeyName>PK_FUNDS_REC_ID</RefKeyName>
+    </foreign-key>
+    <foreign-key id="102" parent="36" name="FK_FUND_ASSET_ID">
+      <ModifiedTimestamp>2017-03-22.00:51:32</ModifiedTimestamp>
+      <ColNames>ASSET_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>ASSETS</RefTableName>
+      <RefKeyName>PK_ASSETS_REC_ID</RefKeyName>
+    </foreign-key>
+  </database-model>
+</dataSource>

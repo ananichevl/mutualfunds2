@@ -1,0 +1,20 @@
+-- liquibase formatted sql
+-- changeset bender:add-${fond}table
+
+CREATE TABLE ${fond?upper_case}
+(
+  ID                 NUMERIC(*, 0)  NOT NULL,
+  COMPANY            VARCHAR2(1024) NOT NULL,
+  <#list files as files>
+  VALUE_${files}              NUMERIC(*, 0),
+  SHARES_${files}             NUMERIC(*, 0),
+  </#list>
+  CREATION_DATE      TIMESTAMP DEFAULT (CURRENT_TIMESTAMP),
+  MODIFICATION_DATE  TIMESTAMP DEFAULT (CURRENT_TIMESTAMP)
+);
+
+ALTER TABLE ${fond?upper_case}
+  ADD CONSTRAINT PK_${fond?upper_case}_REC_ID PRIMARY KEY (ID);
+
+CREATE SEQUENCE ${fond?upper_case}_SEQ
+START WITH 1 INCREMENT BY 1 MINVALUE 1 MAXVALUE 999999999999999999999999999 CACHE 20;
