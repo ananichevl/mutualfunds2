@@ -4,7 +4,6 @@ import model.data.Asset;
 import model.data.Company;
 
 import javax.persistence.EntityManager;
-import javax.persistence.NamedQuery;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
