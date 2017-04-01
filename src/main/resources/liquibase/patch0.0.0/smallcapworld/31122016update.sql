@@ -16,27 +16,27 @@ VALUES (  funds_seq.nextval,
 -- changeset mkp:add-records-31122016-02
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Domino’s Pizza Inc ' )
+ON ( c.name = 'Domino’s Pizza Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Domino’s Pizza Inc '
+'Domino’s Pizza Inc'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Domino’s Pizza Inc ' )
+ON ( a.asset_name = 'Domino’s Pizza Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Domino’s Pizza Inc ',
-(SELECT id FROM companies WHERE name='Domino’s Pizza Inc ')
+'Domino’s Pizza Inc',
+(SELECT id FROM companies WHERE name='Domino’s Pizza Inc')
 )
 ;
 
@@ -50,7 +50,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='smallcapworld'),
-(SELECT id FROM assets WHERE asset_name='Domino’s Pizza Inc '),
+(SELECT id FROM assets WHERE asset_name='Domino’s Pizza Inc'),
 434529,
 2728769,
 to_date(31122016, 'ddmmyyyy')
@@ -24354,27 +24354,27 @@ to_date(31122016, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Ratchaburi Electricity Generating Holding PCL foreign registered ' )
+ON ( c.name = 'Ratchaburi Electricity Generating Holding PCL foreign registered' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Ratchaburi Electricity Generating Holding PCL foreign registered '
+'Ratchaburi Electricity Generating Holding PCL foreign registered'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Ratchaburi Electricity Generating Holding PCL foreign registered ' )
+ON ( a.asset_name = 'Ratchaburi Electricity Generating Holding PCL foreign registered' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Ratchaburi Electricity Generating Holding PCL foreign registered ',
-(SELECT id FROM companies WHERE name='Ratchaburi Electricity Generating Holding PCL foreign registered ')
+'Ratchaburi Electricity Generating Holding PCL foreign registered',
+(SELECT id FROM companies WHERE name='Ratchaburi Electricity Generating Holding PCL foreign registered')
 )
 ;
 
@@ -24388,7 +24388,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='smallcapworld'),
-(SELECT id FROM assets WHERE asset_name='Ratchaburi Electricity Generating Holding PCL foreign registered '),
+(SELECT id FROM assets WHERE asset_name='Ratchaburi Electricity Generating Holding PCL foreign registered'),
 8851,
 6350000,
 to_date(31122016, 'ddmmyyyy')

@@ -11110,27 +11110,27 @@ to_date(31052013, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Sprint Nextel Corp Series ' )
+ON ( c.name = 'Sprint Nextel Corp Series' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Sprint Nextel Corp Series '
+'Sprint Nextel Corp Series'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Sprint Nextel Corp Series ' )
+ON ( a.asset_name = 'Sprint Nextel Corp Series' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Sprint Nextel Corp Series ',
-(SELECT id FROM companies WHERE name='Sprint Nextel Corp Series ')
+'Sprint Nextel Corp Series',
+(SELECT id FROM companies WHERE name='Sprint Nextel Corp Series')
 )
 ;
 
@@ -11144,7 +11144,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='growthfund'),
-(SELECT id FROM assets WHERE asset_name='Sprint Nextel Corp Series '),
+(SELECT id FROM assets WHERE asset_name='Sprint Nextel Corp Series'),
 206187,
 28244788,
 to_date(31052013, 'ddmmyyyy')

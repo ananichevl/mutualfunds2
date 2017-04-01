@@ -5520,27 +5520,27 @@ to_date(31052013, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Arch Capital Group Ltd ' )
+ON ( c.name = 'Arch Capital Group Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Arch Capital Group Ltd '
+'Arch Capital Group Ltd'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Arch Capital Group Ltd ' )
+ON ( a.asset_name = 'Arch Capital Group Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Arch Capital Group Ltd ',
-(SELECT id FROM companies WHERE name='Arch Capital Group Ltd ')
+'Arch Capital Group Ltd',
+(SELECT id FROM companies WHERE name='Arch Capital Group Ltd')
 )
 ;
 
@@ -5554,7 +5554,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='amcap'),
-(SELECT id FROM assets WHERE asset_name='Arch Capital Group Ltd '),
+(SELECT id FROM assets WHERE asset_name='Arch Capital Group Ltd'),
 76815,
 1500000,
 to_date(31052013, 'ddmmyyyy')

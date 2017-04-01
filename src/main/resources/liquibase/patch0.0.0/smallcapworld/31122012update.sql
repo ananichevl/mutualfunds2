@@ -20183,27 +20183,27 @@ to_date(31122012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = ' BC Ltd' )
+ON ( c.name = 'BC Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-' BC Ltd'
+'BC Ltd'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = ' BC Ltd' )
+ON ( a.asset_name = 'BC Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-' BC Ltd',
-(SELECT id FROM companies WHERE name=' BC Ltd')
+'BC Ltd',
+(SELECT id FROM companies WHERE name='BC Ltd')
 )
 ;
 
@@ -20217,7 +20217,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='smallcapworld'),
-(SELECT id FROM assets WHERE asset_name=' BC Ltd'),
+(SELECT id FROM assets WHERE asset_name='BC Ltd'),
 3,
 52000,
 to_date(31122012, 'ddmmyyyy')

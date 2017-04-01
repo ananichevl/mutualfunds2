@@ -1,0 +1,49 @@
+-- liquibase formatted sql
+<#assign i = 0>
+<#list bourses as bourses>
+<#assign i++>
+<#if i % 100 == 1>
+-- changeset mkp:add-values-test-${i?string["0000"]}
+</#if>
+MERGE INTO bourses b
+USING ( SELECT 1 FROM dual ) d
+ON ( b.name = '${bourses.bourse}' )
+WHEN NOT MATCHED THEN
+INSERT (id,
+        name
+)
+VALUES (BOURSES_SEQ.nextval,
+  '${bourses.bourse}'
+)
+;
+
+MERGE INTO BOURSE_ASSETS a
+USING ( SELECT t1.id as asset, t2.id as bourse from ASSETS t1, BOURSES t2 where t1.ASSET_NAME like '${bourses.company}' AND t2.name = '${bourses.bourse}') t
+ON (t.asset = a.ASSET_ID AND t.bourse = a.BOURSE_ID)
+WHEN NOT MATCHED THEN
+INSERT (id,
+        asset_id,
+        BOURSE_ID
+)
+VALUES (bourse_assets_seq.nextval,
+  (SELECT id from assets where asset_name like '${bourses.company}'),
+  (SElect id from bourses where name = '${bourses.bourse}')
+)
+;
+
+INSERT INTO BOURSE_ASSETS_VALUES
+(id,
+ BOURSE_ASSET_ID,
+ value,
+ INFO_DATE,
+ CURRENCY
+)
+VALUES (BOURSE_ASSETS_VALUES_SEQ.nextval,
+        (SELECT id FROM BOURSE_ASSETS WHERE ASSET_ID in (SELECT ID FROM ASSETS WHERE ASSET_NAME = '${bourses.company}')),
+        ${bourses.value?c},
+        to_date(${bourses.date}, 'ddmmyyyy'),
+        '${bourses.currency}'
+)
+;
+
+</#list>

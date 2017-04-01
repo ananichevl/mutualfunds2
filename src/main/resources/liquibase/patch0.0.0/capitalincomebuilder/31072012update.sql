@@ -876,27 +876,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Orior AG ' )
+ON ( c.name = 'Orior AG' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Orior AG '
+'Orior AG'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Orior AG ' )
+ON ( a.asset_name = 'Orior AG' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Orior AG ',
-(SELECT id FROM companies WHERE name='Orior AG ')
+'Orior AG',
+(SELECT id FROM companies WHERE name='Orior AG')
 )
 ;
 
@@ -910,7 +910,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Orior AG '),
+(SELECT id FROM assets WHERE asset_name='Orior AG'),
 19224,
 385000,
 to_date(31072012, 'ddmmyyyy')
@@ -1779,27 +1779,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Turkcell Iletisim Hizmetleri AS ' )
+ON ( c.name = 'Turkcell Iletisim Hizmetleri AS' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Turkcell Iletisim Hizmetleri AS '
+'Turkcell Iletisim Hizmetleri AS'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Turkcell Iletisim Hizmetleri AS ' )
+ON ( a.asset_name = 'Turkcell Iletisim Hizmetleri AS' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Turkcell Iletisim Hizmetleri AS ',
-(SELECT id FROM companies WHERE name='Turkcell Iletisim Hizmetleri AS ')
+'Turkcell Iletisim Hizmetleri AS',
+(SELECT id FROM companies WHERE name='Turkcell Iletisim Hizmetleri AS')
 )
 ;
 
@@ -1813,7 +1813,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Turkcell Iletisim Hizmetleri AS '),
+(SELECT id FROM assets WHERE asset_name='Turkcell Iletisim Hizmetleri AS'),
 62209,
 11110000,
 to_date(31072012, 'ddmmyyyy')
@@ -1994,27 +1994,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'SSE PLC ' )
+ON ( c.name = 'SSE PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'SSE PLC '
+'SSE PLC'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'SSE PLC ' )
+ON ( a.asset_name = 'SSE PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'SSE PLC ',
-(SELECT id FROM companies WHERE name='SSE PLC ')
+'SSE PLC',
+(SELECT id FROM companies WHERE name='SSE PLC')
 )
 ;
 
@@ -2028,7 +2028,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='SSE PLC '),
+(SELECT id FROM assets WHERE asset_name='SSE PLC'),
 1264047,
 61403600,
 to_date(31072012, 'ddmmyyyy')
@@ -2553,27 +2553,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Ratchaburi Electricity Generating Holding PCL ' )
+ON ( c.name = 'Ratchaburi Electricity Generating Holding PCL' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Ratchaburi Electricity Generating Holding PCL '
+'Ratchaburi Electricity Generating Holding PCL'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Ratchaburi Electricity Generating Holding PCL ' )
+ON ( a.asset_name = 'Ratchaburi Electricity Generating Holding PCL' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Ratchaburi Electricity Generating Holding PCL ',
-(SELECT id FROM companies WHERE name='Ratchaburi Electricity Generating Holding PCL ')
+'Ratchaburi Electricity Generating Holding PCL',
+(SELECT id FROM companies WHERE name='Ratchaburi Electricity Generating Holding PCL')
 )
 ;
 
@@ -2587,7 +2587,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Ratchaburi Electricity Generating Holding PCL '),
+(SELECT id FROM assets WHERE asset_name='Ratchaburi Electricity Generating Holding PCL'),
 143007,
 94250000,
 to_date(31072012, 'ddmmyyyy')
@@ -2639,27 +2639,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Electricity Generating PCL ' )
+ON ( c.name = 'Electricity Generating PCL' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Electricity Generating PCL '
+'Electricity Generating PCL'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Electricity Generating PCL ' )
+ON ( a.asset_name = 'Electricity Generating PCL' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Electricity Generating PCL ',
-(SELECT id FROM companies WHERE name='Electricity Generating PCL ')
+'Electricity Generating PCL',
+(SELECT id FROM companies WHERE name='Electricity Generating PCL')
 )
 ;
 
@@ -2673,7 +2673,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Electricity Generating PCL '),
+(SELECT id FROM assets WHERE asset_name='Electricity Generating PCL'),
 105133,
 32596528,
 to_date(31072012, 'ddmmyyyy')
@@ -3671,27 +3671,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'CapitaCommercial Trust ' )
+ON ( c.name = 'CapitaCommercial Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'CapitaCommercial Trust '
+'CapitaCommercial Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'CapitaCommercial Trust ' )
+ON ( a.asset_name = 'CapitaCommercial Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'CapitaCommercial Trust ',
-(SELECT id FROM companies WHERE name='CapitaCommercial Trust ')
+'CapitaCommercial Trust',
+(SELECT id FROM companies WHERE name='CapitaCommercial Trust')
 )
 ;
 
@@ -3705,7 +3705,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='CapitaCommercial Trust '),
+(SELECT id FROM assets WHERE asset_name='CapitaCommercial Trust'),
 171979,
 159709300,
 to_date(31072012, 'ddmmyyyy')
@@ -3757,27 +3757,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Starwood Property Trust Inc ' )
+ON ( c.name = 'Starwood Property Trust Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Starwood Property Trust Inc '
+'Starwood Property Trust Inc'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Starwood Property Trust Inc ' )
+ON ( a.asset_name = 'Starwood Property Trust Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Starwood Property Trust Inc ',
-(SELECT id FROM companies WHERE name='Starwood Property Trust Inc ')
+'Starwood Property Trust Inc',
+(SELECT id FROM companies WHERE name='Starwood Property Trust Inc')
 )
 ;
 
@@ -3791,7 +3791,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Starwood Property Trust Inc '),
+(SELECT id FROM assets WHERE asset_name='Starwood Property Trust Inc'),
 148630,
 6677000,
 to_date(31072012, 'ddmmyyyy')
@@ -4144,27 +4144,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Sunway Real Estate Investment Trust ' )
+ON ( c.name = 'Sunway Real Estate Investment Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Sunway Real Estate Investment Trust '
+'Sunway Real Estate Investment Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Sunway Real Estate Investment Trust ' )
+ON ( a.asset_name = 'Sunway Real Estate Investment Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Sunway Real Estate Investment Trust ',
-(SELECT id FROM companies WHERE name='Sunway Real Estate Investment Trust ')
+'Sunway Real Estate Investment Trust',
+(SELECT id FROM companies WHERE name='Sunway Real Estate Investment Trust')
 )
 ;
 
@@ -4178,7 +4178,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Sunway Real Estate Investment Trust '),
+(SELECT id FROM assets WHERE asset_name='Sunway Real Estate Investment Trust'),
 79942,
 174950000,
 to_date(31072012, 'ddmmyyyy')
@@ -4230,27 +4230,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Frasers Centrepoint Trust ' )
+ON ( c.name = 'Frasers Centrepoint Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Frasers Centrepoint Trust '
+'Frasers Centrepoint Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Frasers Centrepoint Trust ' )
+ON ( a.asset_name = 'Frasers Centrepoint Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Frasers Centrepoint Trust ',
-(SELECT id FROM companies WHERE name='Frasers Centrepoint Trust ')
+'Frasers Centrepoint Trust',
+(SELECT id FROM companies WHERE name='Frasers Centrepoint Trust')
 )
 ;
 
@@ -4264,7 +4264,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Frasers Centrepoint Trust '),
+(SELECT id FROM assets WHERE asset_name='Frasers Centrepoint Trust'),
 77335,
 53464000,
 to_date(31072012, 'ddmmyyyy')
@@ -4359,27 +4359,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Astoria Financial Corp ' )
+ON ( c.name = 'Astoria Financial Corp' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Astoria Financial Corp '
+'Astoria Financial Corp'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Astoria Financial Corp ' )
+ON ( a.asset_name = 'Astoria Financial Corp' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Astoria Financial Corp ',
-(SELECT id FROM companies WHERE name='Astoria Financial Corp ')
+'Astoria Financial Corp',
+(SELECT id FROM companies WHERE name='Astoria Financial Corp')
 )
 ;
 
@@ -4393,7 +4393,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Astoria Financial Corp '),
+(SELECT id FROM assets WHERE asset_name='Astoria Financial Corp'),
 60335,
 6405000,
 to_date(31072012, 'ddmmyyyy')
@@ -4488,27 +4488,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'CapitaRetail China Trust ' )
+ON ( c.name = 'CapitaRetail China Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'CapitaRetail China Trust '
+'CapitaRetail China Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'CapitaRetail China Trust ' )
+ON ( a.asset_name = 'CapitaRetail China Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'CapitaRetail China Trust ',
-(SELECT id FROM companies WHERE name='CapitaRetail China Trust ')
+'CapitaRetail China Trust',
+(SELECT id FROM companies WHERE name='CapitaRetail China Trust')
 )
 ;
 
@@ -4522,7 +4522,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='CapitaRetail China Trust '),
+(SELECT id FROM assets WHERE asset_name='CapitaRetail China Trust'),
 50215,
 43545000,
 to_date(31072012, 'ddmmyyyy')
@@ -4574,27 +4574,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund ' )
+ON ( c.name = 'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund '
+'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund ' )
+ON ( a.asset_name = 'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund ',
-(SELECT id FROM companies WHERE name='Tesco Lotus Retail Growth Freehold and Leasehold Property Fund ')
+'Tesco Lotus Retail Growth Freehold and Leasehold Property Fund',
+(SELECT id FROM companies WHERE name='Tesco Lotus Retail Growth Freehold and Leasehold Property Fund')
 )
 ;
 
@@ -4608,7 +4608,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Tesco Lotus Retail Growth Freehold and Leasehold Property Fund '),
+(SELECT id FROM assets WHERE asset_name='Tesco Lotus Retail Growth Freehold and Leasehold Property Fund'),
 47887,
 110000000,
 to_date(31072012, 'ddmmyyyy')
@@ -4746,27 +4746,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Cache Logistics Trust ' )
+ON ( c.name = 'Cache Logistics Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Cache Logistics Trust '
+'Cache Logistics Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Cache Logistics Trust ' )
+ON ( a.asset_name = 'Cache Logistics Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Cache Logistics Trust ',
-(SELECT id FROM companies WHERE name='Cache Logistics Trust ')
+'Cache Logistics Trust',
+(SELECT id FROM companies WHERE name='Cache Logistics Trust')
 )
 ;
 
@@ -4780,7 +4780,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Cache Logistics Trust '),
+(SELECT id FROM assets WHERE asset_name='Cache Logistics Trust'),
 36407,
 41000000,
 to_date(31072012, 'ddmmyyyy')
@@ -5090,27 +5090,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Société Générale ' )
+ON ( c.name = 'Société Générale' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Société Générale '
+'Société Générale'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Société Générale ' )
+ON ( a.asset_name = 'Société Générale' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Société Générale ',
-(SELECT id FROM companies WHERE name='Société Générale ')
+'Société Générale',
+(SELECT id FROM companies WHERE name='Société Générale')
 )
 ;
 
@@ -5124,7 +5124,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Société Générale '),
+(SELECT id FROM assets WHERE asset_name='Société Générale'),
 8353,
 376945,
 to_date(31072012, 'ddmmyyyy')
@@ -5176,27 +5176,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Fannie Mae ' )
+ON ( c.name = 'Fannie Mae' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Fannie Mae '
+'Fannie Mae'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Fannie Mae ' )
+ON ( a.asset_name = 'Fannie Mae' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Fannie Mae ',
-(SELECT id FROM companies WHERE name='Fannie Mae ')
+'Fannie Mae',
+(SELECT id FROM companies WHERE name='Fannie Mae')
 )
 ;
 
@@ -5210,7 +5210,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Fannie Mae '),
+(SELECT id FROM assets WHERE asset_name='Fannie Mae'),
 2892,
 12458206,
 to_date(31072012, 'ddmmyyyy')
@@ -5219,27 +5219,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Freddie Mac ' )
+ON ( c.name = 'Freddie Mac' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Freddie Mac '
+'Freddie Mac'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Freddie Mac ' )
+ON ( a.asset_name = 'Freddie Mac' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Freddie Mac ',
-(SELECT id FROM companies WHERE name='Freddie Mac ')
+'Freddie Mac',
+(SELECT id FROM companies WHERE name='Freddie Mac')
 )
 ;
 
@@ -5253,7 +5253,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Freddie Mac '),
+(SELECT id FROM assets WHERE asset_name='Freddie Mac'),
 1245,
 5300000,
 to_date(31072012, 'ddmmyyyy')
@@ -6466,27 +6466,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Sydney Airport ' )
+ON ( c.name = 'Sydney Airport' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Sydney Airport '
+'Sydney Airport'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Sydney Airport ' )
+ON ( a.asset_name = 'Sydney Airport' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Sydney Airport ',
-(SELECT id FROM companies WHERE name='Sydney Airport ')
+'Sydney Airport',
+(SELECT id FROM companies WHERE name='Sydney Airport')
 )
 ;
 
@@ -6500,7 +6500,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Sydney Airport '),
+(SELECT id FROM assets WHERE asset_name='Sydney Airport'),
 400335,
 120935073,
 to_date(31072012, 'ddmmyyyy')
@@ -6595,27 +6595,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Hutchison Port Holdings Trust ' )
+ON ( c.name = 'Hutchison Port Holdings Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Hutchison Port Holdings Trust '
+'Hutchison Port Holdings Trust'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Hutchison Port Holdings Trust ' )
+ON ( a.asset_name = 'Hutchison Port Holdings Trust' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Hutchison Port Holdings Trust ',
-(SELECT id FROM companies WHERE name='Hutchison Port Holdings Trust ')
+'Hutchison Port Holdings Trust',
+(SELECT id FROM companies WHERE name='Hutchison Port Holdings Trust')
 )
 ;
 
@@ -6629,7 +6629,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Hutchison Port Holdings Trust '),
+(SELECT id FROM assets WHERE asset_name='Hutchison Port Holdings Trust'),
 177484,
 233532000,
 to_date(31072012, 'ddmmyyyy')
@@ -6767,27 +6767,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'RR Donnelley & Sons Co ' )
+ON ( c.name = 'RR Donnelley & Sons Co' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'RR Donnelley & Sons Co '
+'RR Donnelley & Sons Co'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'RR Donnelley & Sons Co ' )
+ON ( a.asset_name = 'RR Donnelley & Sons Co' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'RR Donnelley & Sons Co ',
-(SELECT id FROM companies WHERE name='RR Donnelley & Sons Co ')
+'RR Donnelley & Sons Co',
+(SELECT id FROM companies WHERE name='RR Donnelley & Sons Co')
 )
 ;
 
@@ -6801,7 +6801,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='RR Donnelley & Sons Co '),
+(SELECT id FROM assets WHERE asset_name='RR Donnelley & Sons Co'),
 147948,
 12206957,
 to_date(31072012, 'ddmmyyyy')
@@ -6810,27 +6810,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Hays PLC ' )
+ON ( c.name = 'Hays PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Hays PLC '
+'Hays PLC'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Hays PLC ' )
+ON ( a.asset_name = 'Hays PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Hays PLC ',
-(SELECT id FROM companies WHERE name='Hays PLC ')
+'Hays PLC',
+(SELECT id FROM companies WHERE name='Hays PLC')
 )
 ;
 
@@ -6844,7 +6844,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Hays PLC '),
+(SELECT id FROM assets WHERE asset_name='Hays PLC'),
 94827,
 80375129,
 to_date(31072012, 'ddmmyyyy')
@@ -7842,27 +7842,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Darden Restaurants Inc ' )
+ON ( c.name = 'Darden Restaurants Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Darden Restaurants Inc '
+'Darden Restaurants Inc'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Darden Restaurants Inc ' )
+ON ( a.asset_name = 'Darden Restaurants Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Darden Restaurants Inc ',
-(SELECT id FROM companies WHERE name='Darden Restaurants Inc ')
+'Darden Restaurants Inc',
+(SELECT id FROM companies WHERE name='Darden Restaurants Inc')
 )
 ;
 
@@ -7876,7 +7876,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Darden Restaurants Inc '),
+(SELECT id FROM assets WHERE asset_name='Darden Restaurants Inc'),
 340552,
 6654000,
 to_date(31072012, 'ddmmyyyy')
@@ -7928,27 +7928,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'William Hill PLC ' )
+ON ( c.name = 'William Hill PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'William Hill PLC '
+'William Hill PLC'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'William Hill PLC ' )
+ON ( a.asset_name = 'William Hill PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'William Hill PLC ',
-(SELECT id FROM companies WHERE name='William Hill PLC ')
+'William Hill PLC',
+(SELECT id FROM companies WHERE name='William Hill PLC')
 )
 ;
 
@@ -7962,7 +7962,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='William Hill PLC '),
+(SELECT id FROM assets WHERE asset_name='William Hill PLC'),
 212240,
 43111488,
 to_date(31072012, 'ddmmyyyy')
@@ -8100,27 +8100,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Greene King PLC ' )
+ON ( c.name = 'Greene King PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Greene King PLC '
+'Greene King PLC'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Greene King PLC ' )
+ON ( a.asset_name = 'Greene King PLC' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Greene King PLC ',
-(SELECT id FROM companies WHERE name='Greene King PLC ')
+'Greene King PLC',
+(SELECT id FROM companies WHERE name='Greene King PLC')
 )
 ;
 
@@ -8134,7 +8134,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Greene King PLC '),
+(SELECT id FROM assets WHERE asset_name='Greene King PLC'),
 132168,
 14073299,
 to_date(31072012, 'ddmmyyyy')
@@ -8487,27 +8487,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Ekornes ASA ' )
+ON ( c.name = 'Ekornes ASA' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Ekornes ASA '
+'Ekornes ASA'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Ekornes ASA ' )
+ON ( a.asset_name = 'Ekornes ASA' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Ekornes ASA ',
-(SELECT id FROM companies WHERE name='Ekornes ASA ')
+'Ekornes ASA',
+(SELECT id FROM companies WHERE name='Ekornes ASA')
 )
 ;
 
@@ -8521,7 +8521,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Ekornes ASA '),
+(SELECT id FROM assets WHERE asset_name='Ekornes ASA'),
 27910,
 1990851,
 to_date(31072012, 'ddmmyyyy')
@@ -9046,27 +9046,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Quanta Computer Inc (GDR) ' )
+ON ( c.name = 'Quanta Computer Inc (GDR)' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Quanta Computer Inc (GDR) '
+'Quanta Computer Inc (GDR)'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Quanta Computer Inc (GDR) ' )
+ON ( a.asset_name = 'Quanta Computer Inc (GDR)' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Quanta Computer Inc (GDR) ',
-(SELECT id FROM companies WHERE name='Quanta Computer Inc (GDR) ')
+'Quanta Computer Inc (GDR)',
+(SELECT id FROM companies WHERE name='Quanta Computer Inc (GDR)')
 )
 ;
 
@@ -9080,7 +9080,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Quanta Computer Inc (GDR) '),
+(SELECT id FROM assets WHERE asset_name='Quanta Computer Inc (GDR)'),
 17644,
 1422494,
 to_date(31072012, 'ddmmyyyy')
@@ -9218,27 +9218,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Siliconware Precision Industries Co Ltd ' )
+ON ( c.name = 'Siliconware Precision Industries Co Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Siliconware Precision Industries Co Ltd '
+'Siliconware Precision Industries Co Ltd'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Siliconware Precision Industries Co Ltd ' )
+ON ( a.asset_name = 'Siliconware Precision Industries Co Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Siliconware Precision Industries Co Ltd ',
-(SELECT id FROM companies WHERE name='Siliconware Precision Industries Co Ltd ')
+'Siliconware Precision Industries Co Ltd',
+(SELECT id FROM companies WHERE name='Siliconware Precision Industries Co Ltd')
 )
 ;
 
@@ -9252,7 +9252,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Siliconware Precision Industries Co Ltd '),
+(SELECT id FROM assets WHERE asset_name='Siliconware Precision Industries Co Ltd'),
 193735,
 173970300,
 to_date(31072012, 'ddmmyyyy')
@@ -9476,27 +9476,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'Playtech Ltd ' )
+ON ( c.name = 'Playtech Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'Playtech Ltd '
+'Playtech Ltd'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'Playtech Ltd ' )
+ON ( a.asset_name = 'Playtech Ltd' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'Playtech Ltd ',
-(SELECT id FROM companies WHERE name='Playtech Ltd ')
+'Playtech Ltd',
+(SELECT id FROM companies WHERE name='Playtech Ltd')
 )
 ;
 
@@ -9510,7 +9510,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='Playtech Ltd '),
+(SELECT id FROM assets WHERE asset_name='Playtech Ltd'),
 12513,
 2300000,
 to_date(31072012, 'ddmmyyyy')
@@ -9949,27 +9949,27 @@ to_date(31072012, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'RPM International Inc ' )
+ON ( c.name = 'RPM International Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'RPM International Inc '
+'RPM International Inc'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'RPM International Inc ' )
+ON ( a.asset_name = 'RPM International Inc' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'RPM International Inc ',
-(SELECT id FROM companies WHERE name='RPM International Inc ')
+'RPM International Inc',
+(SELECT id FROM companies WHERE name='RPM International Inc')
 )
 ;
 
@@ -9983,7 +9983,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='capitalincomebuilder'),
-(SELECT id FROM assets WHERE asset_name='RPM International Inc '),
+(SELECT id FROM assets WHERE asset_name='RPM International Inc'),
 221010,
 8340000,
 to_date(31072012, 'ddmmyyyy')

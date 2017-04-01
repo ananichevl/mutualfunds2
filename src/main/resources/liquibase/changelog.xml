@@ -18,6 +18,17 @@
     <include file="patch0.0.0/amcap/31052015update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/amcap/31052016update.sql" relativeToChangelogFile="true"/>
 
+    <include file="patch0.0.0/americanbalanced/30092012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/30092013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/30092014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/30092015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/30092016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/31032012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/31032013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/31032014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/31032015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/americanbalanced/31032016update.sql" relativeToChangelogFile="true"/>
+
     <include file="patch0.0.0/capitalincomebuilder/31012012update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/capitalincomebuilder/31012013update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/capitalincomebuilder/31012014update.sql" relativeToChangelogFile="true"/>
@@ -40,6 +51,17 @@
     <include file="patch0.0.0/europacific/31122015update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/europacific/31122011update.sql" relativeToChangelogFile="true"/>
 
+    <include file="patch0.0.0/fundamentalinvest/30092012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/30092013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/30092014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/30092015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/30092016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/31032012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/31032013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/31032014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/31032015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/fundamentalinvest/31032016update.sql" relativeToChangelogFile="true"/>
+
     <include file="patch0.0.0/growthfund/30112012update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/growthfund/30112013update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/growthfund/30112014update.sql" relativeToChangelogFile="true"/>
@@ -50,6 +72,17 @@
     <include file="patch0.0.0/growthfund/31052014update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/growthfund/31052015update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/growthfund/31052016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/perspectivefund/30062012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/30062013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/30062014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/30062015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/30062016update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/31122012update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/31122013update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/31122014update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/31122015update.sql" relativeToChangelogFile="true"/>
+    <include file="patch0.0.0/perspectivefund/31122016update.sql" relativeToChangelogFile="true"/>
 
     <include file="patch0.0.0/smallcapworld/30062012update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/smallcapworld/30062013update.sql" relativeToChangelogFile="true"/>
@@ -72,4 +105,7 @@
     <include file="patch0.0.0/washingtonmutual/31072014update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/washingtonmutual/31072015update.sql" relativeToChangelogFile="true"/>
     <include file="patch0.0.0/washingtonmutual/31072016update.sql" relativeToChangelogFile="true"/>
+
+    <include file="patch0.0.0/test_update16268.sql" relativeToChangelogFile="true"/>
+
 </databaseChangeLog>

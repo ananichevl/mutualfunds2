@@ -16571,27 +16571,27 @@ to_date(31122013, 'ddmmyyyy')
 
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
-ON ( c.name = 'TCS Group Holding Plc (GDR) ' )
+ON ( c.name = 'TCS Group Holding Plc (GDR)' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 name
 )
 VALUES (companies_seq.nextval,
-'TCS Group Holding Plc (GDR) '
+'TCS Group Holding Plc (GDR)'
 )
 ;
 
 MERGE INTO assets a
 USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = 'TCS Group Holding Plc (GDR) ' )
+ON ( a.asset_name = 'TCS Group Holding Plc (GDR)' )
 WHEN NOT MATCHED THEN
 INSERT (id,
 asset_name,
 company_id
 )
 VALUES (assets_seq.nextval,
-'TCS Group Holding Plc (GDR) ',
-(SELECT id FROM companies WHERE name='TCS Group Holding Plc (GDR) ')
+'TCS Group Holding Plc (GDR)',
+(SELECT id FROM companies WHERE name='TCS Group Holding Plc (GDR)')
 )
 ;
 
@@ -16605,7 +16605,7 @@ report_date
 )
 VALUES (funds_portfolio_seq.nextval,
 (SELECT id FROM funds WHERE name='smallcapworld'),
-(SELECT id FROM assets WHERE asset_name='TCS Group Holding Plc (GDR) '),
+(SELECT id FROM assets WHERE asset_name='TCS Group Holding Plc (GDR)'),
 13183,
 839700,
 to_date(31122013, 'ddmmyyyy')

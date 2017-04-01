@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="assetService" class="org.ananichev.model.data.service.AssetService" />
+
+    <bean id="companyService" class="org.ananichev.model.data.service.CompanyService"/>
+
+    <bean id="fundPortfolioService" class="org.ananichev.model.data.service.FundPortfolioService"/>
+
+    <bean id="generator" class="org.ananichev.generator.SQLGenerator"/>
+
+    <bean id="parser" class="org.ananichev.parser.NQParser"/>
+
+    <bean id="oldParser" class="org.ananichev.parser.NQOldParser" />
+
+    <bean id="seleniumSurfer" class="org.ananichev.selenium.SeleniumSurferImpl"/>
+
+    <bean id="bourseAssetService" class="org.ananichev.model.data.service.BourseAssetService"/>
+
+    <bean id="bourseAssetValueService" class="org.ananichev.model.data.service.BourseAssetValueService"/>
+
+    <bean id="informationFinder" class="org.ananichev.InformationFinder" init-method="init">
+        <constructor-arg name="companyService" ref="companyService"/>
+        <constructor-arg name="fundPortfolioService" ref="fundPortfolioService"/>
+        <constructor-arg name="assetService" ref="assetService"/>
+        <constructor-arg name="parser" ref="parser"/>
+        <constructor-arg name="oldParser" ref="oldParser"/>
+        <constructor-arg name="generator" ref="generator"/>
+        <constructor-arg name="seleniumSurfer" ref="seleniumSurfer"/>
+        <constructor-arg name="bourseAssetService" ref="bourseAssetService"/>
+        <constructor-arg name="bourseAssetValueService" ref="bourseAssetValueService"/>
+    </bean>
+
+</beans>

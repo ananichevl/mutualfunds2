@@ -2035,49 +2035,6 @@ to_date(30062016, 'ddmmyyyy')
 )
 ;
 
-/*MERGE INTO companies c
-USING ( SELECT 1 FROM dual ) d
-ON ( c.name = '' )
-WHEN NOT MATCHED THEN
-INSERT (id,
-name
-)
-VALUES (companies_seq.nextval,
-''
-)
-;
-
-MERGE INTO assets a
-USING ( SELECT 1 FROM dual ) d
-ON ( a.asset_name = '' )
-WHEN NOT MATCHED THEN
-INSERT (id,
-asset_name,
-company_id
-)
-VALUES (assets_seq.nextval,
-'',
-(SELECT id FROM companies WHERE name='')
-)
-;
-
-INSERT INTO funds_portfolio
-(id,
-fund_id,
-asset_id,
-value,
-shares,
-report_date
-)
-VALUES (funds_portfolio_seq.nextval,
-(SELECT id FROM funds WHERE name='smallcapworld'),
-(SELECT id FROM assets WHERE asset_name=''),
-30601,
-2833445,
-to_date(30062016, 'ddmmyyyy')
-)
-;*/
-
 MERGE INTO companies c
 USING ( SELECT 1 FROM dual ) d
 ON ( c.name = 'Genomma Lab Internacional SAB de CV Series B' )
